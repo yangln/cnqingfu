@@ -1,0 +1,122 @@
+.border0{
+	border: none!important; 
+}
+img{
+	cursor: pointer;
+}
+.content_wrapper{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.inner_left{
+	box-sizing: border-box;
+	width: 120px;
+	border-left: solid 1px #dddddd;
+	border-top: solid 1px #dddddd;
+	border-bottom: solid 1px #dddddd;
+	float: left;
+}
+.inner_left>a{
+	width: 100%;
+	height: 80px;
+	background: #e60012;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	line-height: 80px;
+}
+.inner_left>a.cur{
+	background: #fff;
+	color: #e60012;
+}
+.inner_right{
+	box-sizing: border-box;
+	width: 1080px;
+	border:solid 1px #dddddd;
+	padding-bottom: 40px;
+	float: right;
+}
+.tabinner{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+h3{
+	font-size: 26px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #d8d8d8;
+    color: rgb(185, 121, 0);
+}
+h3>span{
+	display: inline-block;
+	font-size: 20px;
+    color: #c5c5c5;
+    padding-left: 10px;
+}
+.section{
+	border-bottom: dashed 1px #d8d8d8;
+	padding: 8px 20px 25px 20px;
+}
+
+.img_wrapper{
+	margin-left: 20px;
+}
+.img_box{
+	border: 1px solid #FF9800;
+	padding: 5px;
+	overflow: hidden;
+	text-align: center;
+	margin: 0 10px;
+}
+.img_wrapper p{
+	text-align: center;
+	font-size: 16px;
+	line-height: 20px;
+	padding-top: 20px;
+	margin-bottom: 30px;
+}
+.pop{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	display: none;
+}
+.pop.show{
+	display: block;
+}
+.shadow_bg{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.6);	
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 666;
+}
+.big_pic{
+	height: 840px;
+	overflow: auto;
+	margin: 50px 0;
+	position: absolute;
+	left: 50%;
+	top: 0;
+	margin-left: -400px;
+	z-index: 999;
+}
+.close_btn{
+	width: 60px;
+	height: 60px;
+	background: url(../../images/information/operation/close.png);
+	background-size: 100%;
+	position: absolute;
+	top: 10px;
+	right: 0px;
+	z-index: 999;
+}

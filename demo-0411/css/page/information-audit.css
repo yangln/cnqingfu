@@ -1,0 +1,168 @@
+.border0{
+	border: none!important; 
+}
+img{
+	cursor: pointer;
+}
+.content_wrapper{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.inner_left{
+	box-sizing: border-box;
+	width: 120px;
+	border-left: solid 1px #dddddd;
+	border-top: solid 1px #dddddd;
+	border-bottom: solid 1px #dddddd;
+	float: left;
+}
+.inner_left>a{
+	width: 100%;
+	height: 80px;
+	background: #e60012;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	line-height: 80px;
+}
+.inner_left>a.cur{
+	background: #fff;
+	color: #e60012;
+}
+.inner_right{
+	box-sizing: border-box;
+	width: 1080px;
+	border:solid 1px #dddddd;
+	padding-bottom: 40px;
+	float: right;
+}
+.tabinner{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+h3{
+	font-size: 26px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #d8d8d8;
+    color: rgb(185, 121, 0);
+}
+h3>span{
+	display: inline-block;
+	font-size: 20px;
+    color: #c5c5c5;
+    padding-left: 10px;
+}
+.section{
+	border-bottom: dashed 1px #d8d8d8;
+	padding: 8px 20px 25px 20px;
+}
+h4{
+    font-size: 20px;
+    padding: 15px 0;
+}
+h4>i{
+	border-radius: 16px;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    color: #ffffff;
+    text-indent: 0;
+    text-align: center;
+    line-height: 32px;
+    margin-right: 10px;
+    background: #e60012;
+}
+.txt>p{
+	text-indent: 2em;
+	font-size: 16px;
+    line-height: 32px;
+    text-indent: 32px;
+    color: #4a4a4a;
+}
+table{
+	width: 100%;
+}
+tr{
+	border-bottom: 1px solid #d8d8d8;
+}
+table td {
+    line-height: 28px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #4a4a4a;
+}
+.beian{
+	width: 850px;
+	margin: 0 auto;
+}
+.table_tit{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.table_bgblue{
+	background: #e60012;
+}
+.table_bgblue td{
+	color: #fff;
+	text-align: center;
+}
+.beian tr{
+	border-bottom: 0;
+}
+.beian tr td{
+	line-height: 35px;
+}
+.beian tr:nth-child(odd){
+	background: #f5f5f5;
+}
+.beian tr:nth-child(1){
+	background: #fff;
+}
+.beian tr td:nth-child(1){
+	text-align: center;
+}
+.special tr td:last-child{
+	text-align: center;
+}
+.special tr td{
+	line-height: 20px;
+}
+.img_wrapper{
+	margin-left: 20px;
+}
+.img_box{
+	border: 1px solid #FF9800;
+	padding: 5px;
+	overflow: hidden;
+	text-align: center;
+	margin: 0 10px;
+}
+.img_wrapper p{
+	text-align: center;
+	font-size: 16px;
+	line-height: 20px;
+	padding-top: 20px;
+	margin-bottom: 30px;
+}
+.jiagou{
+	border-left: 1px solid #d8d8d8; 
+	border-top: 1px solid #d8d8d8; 
+}
+.jiagou>tr{
+	border-bottom: 1px solid #d8d8d8; 
+}
+.jiagou tr td{
+	border-right: 1px solid #d8d8d8; 
+}
+.shenji>.img_box{
+	width: 180px;
+}
+.shenji>p{
+	width: 180px;
+}
