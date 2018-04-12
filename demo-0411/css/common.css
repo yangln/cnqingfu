@@ -37,7 +37,6 @@ header{
 	width: 100%;
 	height: 70px;
 	background: #fff url(../images/index/section1bg.png) no-repeat center;
-	background-size: 100% 77px;
 	padding-bottom: 7px;
 }
 .nav.insidepage{
@@ -132,24 +131,29 @@ header{
 }
 .product_nav_inner{
 	width: 100%;
-	height: 88px;
-	background: #fff;
+	height: 160px;
 	position: absolute;
 	top: 70px;
 	left: 0;
 	z-index: 999;
 	display: none;
+	background: #fff url(../images/common/bannerbg.jpg) no-repeat 950px center;
 }
 .product_nav_inner.show{
 	display: block;
 }
-.nav_fir{
-	margin-left: 278px;
-}
+
 .product_nav_inner>a{
-	margin-right: 55px;
+	margin-right: 28px;
+	margin-left: 28px;
 	line-height: 28px;
 	font-size: 16px;
+}
+.product_nav_inner>a.nav_fir{
+	margin-left: 278px;
+}
+.xxpl_nav_inner>a{
+	margin-right: 0;
 }
 .product_nav_inner>a:after{
 	content: '';
@@ -160,9 +164,6 @@ header{
 }
 .product_nav_inner>a:hover{
 	color: #e60012;
-}
-.nav_fir_xxpl{
-	margin-left: 123px;
 }
 /*header-e*/
 
@@ -308,6 +309,9 @@ footer{
 	text-align: center;
 }
 /*  page----------------  e    */
+/*  xxpl----------------  s    */
+
 .tit_wrapper>h3{
 	font-weight: bold;
 }
+/*  xxpl----------------  e    */
